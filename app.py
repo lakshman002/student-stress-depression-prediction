@@ -1,7 +1,7 @@
 # app.py
 # Flask application to predict student stress and depression levels
 # Uses text analysis, face emotion detection, and behavior analysis
-# Author: [Lakshman]
+# Author: [Your Name]
 # Date: April 2025
 
 from flask import Flask, request, jsonify, render_template
@@ -176,6 +176,6 @@ def generate_recommendations(stress_score, depression_score):
         recommendations = ["Keep maintaining your current healthy routine", "Stay connected with friends and family", "Regular exercise helps maintain mental health"]
     return recommendations
 
-# Run the Flask app
+# Run the Flask app (Modified for deployment)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=False)

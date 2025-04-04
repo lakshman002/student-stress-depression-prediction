@@ -1,0 +1,414 @@
+[
+    {
+        "student_id": "77",
+        "timestamp": "2025-03-26T12:37:04.149253",
+        "stress_score": 0.0,
+        "stress_level": "Normal"
+    },
+    {
+        "student_id": "77",
+        "timestamp": "2025-03-26T12:37:22.726881",
+        "stress_score": 0.25000000000000006,
+        "stress_level": "Moderate"
+    },
+    {
+        "student_id": "20",
+        "timestamp": "2025-03-26T12:40:52.127207",
+        "stress_score": 0.85,
+        "stress_level": "Severe"
+    },
+    {
+        "student_id": "20",
+        "timestamp": "2025-03-26T12:41:08.991595",
+        "stress_score": 0.0,
+        "stress_level": "Normal"
+    },
+    {
+        "student_id": "20",
+        "timestamp": "2025-03-26T12:41:22.090879",
+        "stress_score": 0.25000000000000006,
+        "stress_level": "Moderate"
+    },
+    {
+        "student_id": "20mid22",
+        "timestamp": "2025-03-26T13:11:04.581292",
+        "stress_score": 0.0,
+        "stress_level": "Normal"
+    },
+    {
+        "student_id": "20mid22",
+        "timestamp": "2025-03-26T13:11:14.044474",
+        "stress_score": 0.35000000000000003,
+        "stress_level": "Moderate"
+    },
+    {
+        "student_id": "20mid22",
+        "timestamp": "2025-03-26T13:11:27.482053",
+        "stress_score": 0.2,
+        "stress_level": "Normal"
+    },
+    {
+        "student_id": "hari3",
+        "timestamp": "2025-03-26T13:19:09.375773",
+        "stress_score": 1.0,
+        "stress_level": "Severe"
+    },
+    {
+        "student_id": "hari3",
+        "timestamp": "2025-03-26T13:20:39.996189",
+        "stress_score": 0.45,
+        "stress_level": "Moderate"
+    },
+    {
+        "student_id": "77",
+        "timestamp": "2025-03-26T13:34:27.460804",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "77",
+        "timestamp": "2025-03-26T13:34:39.419293",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "77",
+        "timestamp": "2025-03-26T13:34:40.311113",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "99",
+        "timestamp": "2025-03-26T13:36:43.836736",
+        "stress_score": 1.0,
+        "depression_score": 0.0,
+        "stress_level": "Severe",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "99",
+        "timestamp": "2025-03-26T13:46:54.389955",
+        "stress_score": 0.35000000000000003,
+        "depression_score": 0.4,
+        "stress_level": "Moderate",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "33",
+        "timestamp": "2025-03-26T14:00:25.406063",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:15:45.470749",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:21:04.019983",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:26:36.710895",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:27:29.238479",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "20MID0208",
+        "timestamp": "2025-03-26T14:28:02.572958",
+        "stress_score": 0.35000000000000003,
+        "depression_score": 0.4,
+        "stress_level": "Moderate",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:34:04.461458",
+        "stress_score": 0.0,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:34:29.229009",
+        "stress_score": 1.0,
+        "depression_score": 0.0,
+        "stress_level": "Severe",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T14:37:47.908295",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T14:38:15.531156",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "33",
+        "timestamp": "2025-03-26T14:47:30.692335",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "33",
+        "timestamp": "2025-03-26T14:47:41.724534",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "33",
+        "timestamp": "2025-03-26T14:47:45.460667",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:51:50.721039",
+        "stress_score": 0.4,
+        "depression_score": 0.4,
+        "stress_level": "Moderate",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:55:54.031063",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:58:00.227573",
+        "stress_score": 0.09999999999999999,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:58:56.741720",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:59:03.933017",
+        "stress_score": 1.0,
+        "depression_score": 0.0,
+        "stress_level": "Severe",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:59:11.816416",
+        "stress_score": 0.0,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:59:13.138135",
+        "stress_score": 0.0,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T14:59:29.370886",
+        "stress_score": 1.0,
+        "depression_score": 0.0,
+        "stress_level": "Severe",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "20MID0208",
+        "timestamp": "2025-03-26T15:17:16.621845",
+        "stress_score": 0.0,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "20MID0208",
+        "timestamp": "2025-03-26T15:17:16.624856",
+        "stress_score": 0.0,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T15:24:49.904085",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T15:24:49.908081",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.4,
+        "stress_level": "Normal",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T15:30:27.793536",
+        "stress_score": 0.10000000000000002,
+        "depression_score": 0.0,
+        "stress_level": "Normal",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "22",
+        "timestamp": "2025-03-26T15:34:43.038362",
+        "stress_score": 0.45,
+        "depression_score": 0.4,
+        "stress_level": "Moderate",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "33",
+        "timestamp": "2025-03-26T15:37:02.538327",
+        "stress_score": 0.25000000000000006,
+        "depression_score": 0.9,
+        "stress_level": "Normal",
+        "depression_level": "Severe"
+    },
+    {
+        "student_id": "44",
+        "timestamp": "2025-03-26T15:40:55.497060",
+        "stress_score": 0.55,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "20mid0200",
+        "timestamp": "2025-03-26T15:44:49.796998",
+        "stress_score": 0.55,
+        "depression_score": 0.0,
+        "stress_level": "High",
+        "depression_level": "Normal"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:22.352081",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:28.196441",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:28.589727",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:28.789798",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:28.991277",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:29.287046",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:29.462665",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:29.657811",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    },
+    {
+        "student_id": "11",
+        "timestamp": "2025-03-26T15:48:29.822346",
+        "stress_score": 0.7,
+        "depression_score": 0.4,
+        "stress_level": "High",
+        "depression_level": "Moderate"
+    }
+]

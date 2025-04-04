@@ -1,0 +1,9 @@
+flask
+fer
+transformers
+torch
+scikit-learn
+numpy
+opencv-python
+werkzeug
+gunicorn

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Student Mental Health Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Mental Health Tracker</h1>
+        
+        <form id="stressForm">
+            <div class="form-group">
+                <label><i class="fas fa-id-badge"></i> Student ID</label>
+                <input type="text" id="student_id" required 
+                       placeholder="Enter your student ID (e.g., 20MID0200)">
+            </div>
+
+            <div class="form-group">
+                <label><i class="fas fa-heart"></i> How are you feeling today?</label>
+                <textarea id="text" rows="4" required 
+                          placeholder="Share your thoughts and feelings... How's your day going? 💭"></textarea>
+                <div class="mood-selector">
+                    <span class="mood" data-mood="happy">😊</span>
+                    <span class="mood" data-mood="neutral">😐</span>
+                    <span class="mood" data-mood="sad">😔</span>
+                    <span class="mood" data-mood="stressed">😰</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label><i class="fas fa-camera"></i> Upload your photo</label>
+                <div class="file-upload-box">
+                    <input type="file" id="image" accept="image/*" required>
+                    <div class="upload-icon">📸</div>
+                    <span class="upload-text">Click to upload or drag & drop</span>
+                </div>
+            </div>
+
+            <div class="activity-grid">
+                <div class="form-group">
+                    <label><i class="fas fa-book"></i> Study Hours</label>
+                    <input type="number" id="study_time" min="0" max="12" required 
+                           placeholder="Max: 12 hours 📚">
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-mobile"></i> Social Media Hours</label>
+                    <input type="number" id="social_media" min="0" max="8" required 
+                           placeholder="Max: 8 hours 📱">
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-moon"></i> Sleep Hours</label>
+                    <input type="number" id="sleep_hours" min="0" max="12" required 
+                           placeholder="Max: 12 hours 😴">
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-calendar-alt"></i> Deadlines</label>
+                    <input type="number" id="deadlines" min="0" max="10" required 
+                           placeholder="Max: 10 tasks ⏰">
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-brain"></i> Analyze Mental Health
+                <span class="btn-sparkle">✨</span>
+            </button>
+        </form>
+
+        <!-- Results Section -->
+        <div id="result" class="result" style="display: none;"></div>
+
+        <!-- Analysis Knowledge Section -->
+        <div class="analysis-knowledge">
+            <h3><i class="fas fa-graduation-cap"></i> Understanding Mental Health Metrics</h3>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h4><i class="fas fa-chart-line"></i> Stress Levels</h4>
+                    <ul class="metrics-list">
+                        <li class="normal">Normal (0.0 - 0.25): Balanced daily stress</li>
+                        <li class="moderate">Moderate (0.26 - 0.50): Manageable tension</li>
+                        <li class="high">High (0.51 - 0.75): Significant pressure</li>
+                        <li class="severe">Severe (0.76 - 1.0): Critical stress level</li>
+                    </ul>
+                </div>
+        
+                <div class="metric-card">
+                    <h4><i class="fas fa-balance-scale"></i> Activity Balance</h4>
+                    <ul class="metrics-list">
+                        <li class="optimal">Optimal Study: 6-8 hours daily</li>
+                        <li class="optimal">Healthy Sleep: 7-9 hours daily</li>
+                        <li class="optimal">Social Media: 1-2 hours daily</li>
+                        <li class="caution">Deadlines: 3-5 manageable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Section -->
+        <div class="stress-dashboard">
+            <div class="metric-card primary">
+                <h3>Mental Health Analysis</h3>
+                <div class="gauge-container">
+                    <div class="stress-meter">
+                        <div class="stress-level-display">
+                            <span class="level-text">Stress Level:</span>
+                            <span class="level-value" id="stress-level">--</span>
+                        </div>
+                        <div class="stress-bar">
+                            <div class="progress" id="stress-gauge"></div>
+                        </div>
+                        <div class="stress-scale">
+                            <span>0</span>
+                            <span>0.25</span>
+                            <span>0.50</span>
+                            <span>0.75</span>
+                            <span>1.0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stress-meter">
+                        <div class="stress-level-display">
+                            <span class="level-text">Depression Level:</span>
+                            <span class="level-value" id="depression-level">--</span>
+                        </div>
+                        <div class="stress-bar">
+                            <div class="progress" id="depression-gauge"></div>
+                        </div>
+                        <div class="stress-scale">
+                            <span>0</span>
+                            <span>0.25</span>
+                            <span>0.50</span>
+                            <span>0.75</span>
+                            <span>1.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="scores">
+                    <div class="score">
+                        <strong>Stress Score:</strong>
+                        <span id="stress-score">--</span>
+                    </div>
+                    <div class="score">
+                        <strong>Depression Score:</strong>
+                        <span id="depression-score">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external script.js -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

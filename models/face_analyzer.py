@@ -1,9 +1,13 @@
 # face_analyzer.py
 # Module to analyze facial emotions using FER (Facial Expression Recognition)
 
+import os
 import cv2
 import numpy as np
 from fer import FER
+
+# Disable GPU usage for TensorFlow
+os.environ["CUDA_VISIBLE_DEVICES"] = ""  # Disable GPU
 
 class FaceAnalyzer:
     def __init__(self):
@@ -27,6 +31,7 @@ class FaceAnalyzer:
                 scale = max_size / max(height, width)
                 image = cv2.resize(image, (int(width * scale), int(height * scale)))
 
+            # Detect emotions using FER
             emotions = self.emotion_detector.detect_emotions(image)
             if not emotions:
                 print(f"No faces detected in {image_path}. Using default stress score.")
@@ -36,12 +41,12 @@ class FaceAnalyzer:
             print(f"Raw emotion scores: {dominant_emotion}")
             emotion_name = max(dominant_emotion, key=dominant_emotion.get)
             stress_score = (
-                dominant_emotion['angry'] * 0.9 +
-                dominant_emotion['fear'] * 0.8 +
-                dominant_emotion['sad'] * 0.7 +
-                dominant_emotion['neutral'] * 0.5 +
-                dominant_emotion['surprise'] * 0.4 +
-                dominant_emotion['happy'] * 0.2
+                dominant_emotion.get('angry', 0) * 0.9 +
+                dominant_emotion.get('fear', 0) * 0.8 +
+                dominant_emotion.get('sad', 0) * 0.7 +
+                dominant_emotion.get('neutral', 0) * 0.5 +
+                dominant_emotion.get('surprise', 0) * 0.4 +
+                dominant_emotion.get('happy', 0) * 0.2
             )
             return min(max(stress_score, 0.0), 1.0), emotion_name
         except Exception as e:
